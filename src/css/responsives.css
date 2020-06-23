@@ -1,0 +1,558 @@
+
+
+/*----------------------------------- Responsives ------------------------------------*/
+
+/*------------- (Max-Width 1200) -------------*/
+@media only screen and (max-width: 1200px) {
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 30%;
+	}
+	/*-------- Header --------*/ 
+
+	/*-------- About --------*/
+	.about-text p {
+		font-size: 13px;
+	} 
+	/*-------- About --------*/ 
+
+	/*-------- Blog Page --------*/ 
+	.comment-item a {
+	  top: 48%;
+	  left: 88%;
+	}
+	/*-------- Blog Page --------*/ 
+}
+/*------------- (Max-Width 1200) -------------*/
+
+/*------------- (Max-Width 991) -------------*/
+@media only screen and (max-width: 991px) {
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 40%;
+	}
+	.header-intro h1 {
+		font-size: 70px;
+	}
+	/*-------- Header --------*/
+
+	/*-------- Navbar --------*/
+	.sidebar {
+		left: -70%;
+		width: 70%;
+	}
+	/*-------- Navbar --------*/
+
+	/*-------- About --------*/
+	.about-text {
+		padding-bottom: 0%;
+	}
+	.about-img {
+		text-align: center;
+		padding-top: 0%;
+	}
+	.about-text p {
+		font-size: 15px;
+	} 
+	.about img {
+		width: 65%;
+	}
+	/*-------- About --------*/
+
+	/*-------- Services --------*/
+	.services .card {
+		margin: 2%;
+	}
+	.services-bg-1 {
+		top: 350%;
+		left: 50%;
+	}
+	.services-bg-1 i {
+		font-size: 600px;
+	}
+	/*-------- Services --------*/
+
+	/*------- Subscribe ------*/
+	.subscribe input {
+		width: 70%;
+	}
+	.subscribe .button-2 {
+	    left: 75%;
+	} 
+	/*------- Subscribe ------*/
+
+	/*------- Coming Soon ------*/
+	.coming-soon h2 {
+		font-size: 50px;
+	}
+	.subs input {
+	  width: 80% !important;
+	}
+	/*------- Coming Soon ------*/
+
+	/*--- Separeted Sections ---*/
+	.logo-div-3 {
+		top: -2%;
+	}
+	/*--- Separeted Sections ---*/
+
+	/*------ Blog Page ---------*/
+	.comment-item a {
+	  top: 48%;
+	  left: 80%;
+	}
+	/*------ Blog Page ---------*/
+}
+/*------------- (Max-Width 991) -------------*/
+
+/*------------- (Max-Width 767) -------------*/
+@media only screen and (max-width: 767px) {
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 50%;
+	}
+	.header-intro h1 {
+		font-size: 60px;
+	}
+	.header-intro hr {
+		width: 80%;
+	}
+	.header-intro p {
+		margin-bottom: 8%;
+	}
+	/*-------- Header --------*/
+
+	/*-------- About --------*/
+	.about img {
+		width: 100%;
+	}
+	/*-------- About --------*/
+
+	/*------ Veterinary ------*/
+	.veterinary img {
+		width: 100%;
+		transform: translate(-50%,-25%);
+		opacity: .8;
+	}
+	.veterinary .card {
+		background: #ffffffb5;
+		box-shadow: none; 
+	}
+	.slideshow-container p {
+		font-size: 15px;
+		padding: 20px;
+	}
+	.prev, .next {
+		display: none;
+	}
+	/*------ Veterinary ------*/
+
+	/*------- Subscribe ------*/
+	.subscribe input {
+		width: 80%;
+		padding: 15px 25px; 
+	}
+	.subscribe .button-2 {
+	    padding: 15px 25px; 
+	    top: -55%;
+    	left: 80%;
+	} 
+	/*------- Subscribe ------*/
+
+	/*--------- Blog ---------*/
+	.blog .card {
+		margin: 1%;
+	}
+	/*--------- Blog ---------*/
+
+	/*--- Separeted Sections ---*/
+	.logo-div-3 {
+		top: -1.5%;
+	}
+	/*--- Separeted Sections ---*/
+
+	/*--- Success Message ---*/
+	.success-message__icon {
+	  max-width: 40%;
+	}
+	/*--- Success Message ---*/
+
+	/*------ Blog Page ------*/
+	.blog-1 h1 {
+	  padding-top: 70%;
+	  font-size: 30px;
+	}
+	.autor .card {
+	  text-align: center;
+	}
+	.autor .card h4 {
+		text-align: center;
+	}
+	.autor .card img {
+	  width: 50%;
+	}
+	.comment-item a {
+	  top: 48%;
+	  left: 82%;
+	}
+	/*------ Blog Page ---------*/
+}
+/*------------- (Max-Width 767) -------------*/
+
+/*------------- (Max-Width 575) -------------*/
+@media only screen and (max-width: 575px) {
+	/*------ Preloader -------*/
+	.preloader-logo {
+		top: 35%;
+		left: 42.5%;
+	}
+	/*------ Preloader -------*/
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 55%;
+	}
+	/*-------- Header --------*/
+
+	/*-------- NavBar --------*/
+	.sidebar {
+	left: -80%;
+	width: 80%;
+	}
+	.toggle {
+		opacity: .9;
+	}
+	.sidebar ul {
+		padding: 40px;
+	}
+	.sidebar ul li a {
+		font-size: 20px;
+	} 
+	/*-------- NavBar --------*/
+
+	/*-------- Footer --------*/
+	footer a i {
+		font-size: 30px;
+		padding: 30px;
+	}
+	/*-------- Footer --------*/
+
+	/*-------- Specials --------*/
+	.logo-div-1 i {
+		padding: 8%;
+	}
+	.logo-div-2 i {
+		padding: 8%;
+	}
+	/*-------- Specials --------*/
+
+	/*-------- 404 Page --------*/
+	.section-404 .button-2:hover {
+		transform: none;
+	}
+	/*-------- 404 Page --------*/
+
+	/*-------- blog Page --------*/
+	.content-blog .card {
+		margin: 0;
+	  margin-bottom: 3%;
+	  margin-top: 3%;
+	}
+	.content-blog input[type=search] {
+	  width: 70%;
+	  
+	  -webkit-border-radius: 25px;
+	  -moz-border-radius: 25px;
+	  border-radius: 25px;
+	  
+	  -webkit-transition: all .5s;
+	  -moz-transition: all .5s;
+	  transition: all .5s;
+	}
+	.content-blog input[type=search]:focus {
+	  width: 50%;
+	  background-color: #fff;
+	  border-color: #3f51b5;
+	  
+	  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	  -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	  box-shadow: 0 0 5px rgba(109,207,246,.5);
+	}
+	/*-------- blog Page --------*/
+
+		
+/*------------- (Max-Width 575) -------------*/
+
+/*------------- (Max-Width 525) -------------*/
+@media only screen and (max-width: 525px) {
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 60%;
+	}
+	.button-3 {
+		padding: 12px 20px;
+	}
+	.button-2 {
+		padding: 15px 20px;
+	}
+	/*-------- Header --------*/
+
+	/*-------- Navbar --------*/
+	.sidebar i {
+		font-size: 280px;
+	}
+	/*-------- Navbar --------*/
+
+	/*------- Graphics -------*/
+	.graphics h3 {
+		font-size: 13px;
+	}
+	/*------- Graphics -------*/
+
+	/*------- Page Coming Soon -------*/
+	.coming-soon h2 {
+		font-size: 40px;
+	}
+	/*------- Page Coming Soon -------*/
+}
+/*------------- (Max-Width 525) -------------*/
+
+/*------------- (Max-Width 441) -------------*/
+@media only screen and (max-width: 441px) {
+	/*------ Preloader -------*/
+	.preloader-logo {
+		top: 35%;
+		left: 34%;
+	}
+	/*------ Preloader -------*/
+	/*-------- Header --------*/
+	.header-intro {
+		padding-top: 85%;
+	}
+	
+	/*-------- Header --------*/
+
+	/*------- Subscribe ------*/
+	.subscribe input {
+	}
+	.subscribe .button-2 {
+	    padding: 15px 25px; 
+	    top: -56%;
+    	left: 75%;
+	} 
+	/*------- Subscribe ------*/
+
+	/*------- 404 Page ------*/
+	.error-div-1 {
+		width: 350px;
+		height: 350px;
+	}
+	.error-div-2 {
+		width: 200px;
+		height: 200px;
+	}
+	.four-1 {
+		top: 10%;
+		left: -30%;
+		transform: translate(-50%,-50%);
+		z-index: 1;
+	}
+	.four-2 {
+		top: 10%;
+		left: 70%;
+		transform: translate(-50%,-50%);
+		z-index: 3;
+	}
+	.error-logo {
+		top: 20%;
+		left: 20%;
+		transform: translate(-50%,-50%);
+		z-index: 2;
+	}
+	.section-404 .button-2 {
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 20px 40px; 
+	}
+	.section-404 p {
+		top: 69%;
+		font-size: 11px;
+	}
+	/*------- 404 Page ------*/
+
+	/*------ Blog Page ------*/
+	.blog-1 h1 {
+	  padding-top: 100%;
+	  font-size: 30px;
+	}
+	.comment-item a {
+	  top: 48%;
+	  left: 78%;
+	}
+	/*------ Blog Page ------*/
+
+	/*------- Page Coming Soon -------*/
+	.coming-soon h2 {
+		font-size: 35px;
+		padding-top: 50%;
+	}
+	/*------- Page Coming Soon -------*/
+
+}
+/*------------- (Max-Width 441) -------------*/
+
+/*------------- (Max-Width 375) -------------*/
+@media only screen and (max-width: 375px) {
+	/*------ Preloader -------*/
+	.preloader-logo {
+		top: 35%;
+		left: 32%;
+	}
+	/*------ Preloader -------*/
+	/*-------- Footer --------*/
+	footer a i {
+		font-size: 30px;
+		padding: 25px;
+	}
+	/*-------- Footer --------*/
+}
+/*------------- (Max-Width 375) -------------*/
+
+/*------------- (Max-Width 370) -------------*/
+@media only screen and (max-width: 370px) {
+	/*-------- Header --------*/
+	.button-3 {
+		padding: 12px 15px;
+	}
+	.button-2 {
+		padding: 15px 15px;
+	}
+	/*-------- Header --------*/
+	/*------- Subscribe ------*/
+	.subscribe{
+		height: 60vh;
+	}
+	/*------- Subscribe ------*/
+}
+/*------------- (Max-Width 370) -------------*/
+
+/*------------- (Max-Width 350) -------------*/
+@media only screen and (max-width: 350px) {
+	/*-------- Header --------*/
+	.button-3 {
+		padding: 12px 12px;
+	}
+	.button-2 {
+		padding: 15px 12px;
+	}
+	.header-intro {
+		padding-top: 25%;
+	}
+	/*-------- Header --------*/
+
+	/*-------- Navbar --------*/
+	.sidebar i {
+		font-size: 250px;
+	}
+	/*-------- Navbar --------*/
+
+	/*-------- Footer --------*/
+	footer a i {
+		font-size: 30px;
+		padding: 20px;
+	}
+	/*-------- Footer --------*/
+}
+/*------------- (Max-Width 350) -------------*/
+
+/*------------- (Max-Width 335) -------------*/
+@media only screen and (max-width: 335px) {
+	/*------ Preloader -------*/
+	.preloader-logo {
+		top: 35%;
+		left: 30%;
+	}
+	/*------ Preloader -------*/
+	/*-------- Header --------*/
+	.button-3 {
+		padding: 12px 8px;
+	}
+	.button-2 {
+		padding: 15px 8px;
+	}
+	/*-------- Header --------*/
+
+	/*-------- Services --------*/
+	.services-title {
+		padding-top: 15%;
+	}
+	/*-------- Services --------*/
+
+	/*------- Subscribe ------*/
+	.subscribe{
+		height: 80vh;
+	}
+	/*------- Subscribe ------*/
+	/*------- 404 Page ------*/
+	.error-div-1 {
+		width: 300px;
+		height: 300px;
+	}
+	.error-div-2 {
+		width: 150px;
+		height: 150px;
+	}
+	.four-1 {
+		top: 50%;
+		left: 5%;
+		transform: translate(-50%,-50%);
+		z-index: 1;
+	}
+	.four-2 {
+		top: 50%;
+		left: 95%;
+		transform: translate(-50%,-50%);
+		z-index: 3;
+	}
+	.error-logo {
+		top: 10%;
+		left: 10%;
+		transform: translate(-50%,-50%);
+		z-index: 2;
+	}
+	.section-404 .button-2 {
+		top: 100%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 20px 33px; 
+		-webkit-text-fill-color: #3f51b5 !important;
+		-moz-text-fill-color: #3f51b5 !important;
+		background: #fff !important;
+	}
+	.section-404 p {
+		top: 75%;
+		font-size: 11px;
+	}
+	/*------- 404 Page ------*/
+
+	/*------ Blog Page ------*/
+	.blog-1 h1 {
+	  padding-top: 90%;
+	  font-size: 30px;
+	}
+	.comment-item a {
+	  top: 48%;
+	  left: 75%;
+	}
+	.share-socials {
+	  padding: 1%;
+	}
+	/*------ Blog Page ------*/
+
+	/*------- Page Coming Soon -------*/
+	.coming-soon h2 {
+		font-size: 30px;
+	}
+	/*------- Page Coming Soon -------*/
+}
+/*------------- (Max-Width 335) -------------*/
